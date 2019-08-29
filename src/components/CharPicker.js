@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './CharPicker.css';
 
 const CharPicker = props => {
   const [loadedChars, setLoadedChars] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => { });
 
   componentDidMount() {
     this.setState({ isLoading: true });

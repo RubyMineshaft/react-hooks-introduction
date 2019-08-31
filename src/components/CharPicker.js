@@ -6,7 +6,7 @@ const CharPicker = props => {
   const [loadedChars, setLoadedChars] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => { });
+  useEffect(() => { })
 
   componentDidMount() {
     this.setState({ isLoading: true });
